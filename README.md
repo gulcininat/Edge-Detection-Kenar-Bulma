@@ -1,6 +1,9 @@
 # Edge-Detection-Kenat-Bulma
 Canny, Laplacian, Prewitt, Robert, Sobel, Zero cross, Knear bulma algoritmaları ayrı ayrı matlab kodları verilmiştir. 
 
+
+lena.png görüntüsünü kendi bilgisayarınızdaki uzantı ile koddaki uzantıyı değiştirmeyi unutmayın. 
+
     sobel_kenar.m dosyası: 
 Yukarıda verilen matlab kodunda, lena.png resminin okunması, siyah beyaza çevrilmesi, sobel kenar uygulaması bulunmaktadır. Sonrasında, aynı orijinal resme gaussian filtre kullanılarak blur işlemi gerçekleştirilmiş ve blurlu resmin siyah beyaza çevrilmesi ve ardından sobel kenar uygulaması bulunmaktadır. 
 Orijinal resme sobel kenar uygulandığında, tüm kenarları bulmayı yaklaşmıştır fakat bunun yanı sıra desenleri de göstermiştir. Resim blurlandıktan sonra uygulanmasında ise, desenler biraz daha azalmıştır, kızın saçını ve şapkasını daha az çizmiştir. 
